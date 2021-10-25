@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-shadow: 
+  -3px -3px 4px black,
+  4px 3px 4px black;
+  ;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+p#indice1 {
+	/*background-color:blue;*/
+}
+p.indice2 {
+    background-color:red;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<h1>My First CSS Example</h1>
+<p>This is a paragraph.</p>
+<div>
+	<p id="indice1" class="indice2">Algo</p>
+    <p >Algo</p>
+</div>
+
+</body>
+</html>
