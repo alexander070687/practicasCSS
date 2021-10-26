@@ -1,35 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-body {
-  background-color: lightblue;
-}
-
-h1 {
-  color: white;
-  text-align: center;
-  text-shadow: 
-  -3px -3px 4px black,
-  4px 3px 4px black;
-  ;
-}
-
-p {
-  font-family: verdana;
-  font-size: 20px;
-}
-
-p#indice1 {
-	/*background-color:blue;*/
-}
-p.indice2 {
-    background-color:red;
-}
-
-
-
-</style>
+ <link type="style" href="Styles/style.css"/>
 </head>
 <body>
 
