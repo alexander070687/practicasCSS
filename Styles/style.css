@@ -2,6 +2,8 @@ body {
   background-color: lightblue;
   width: 700px;
   margin: 0 auto;
+  background: url("https://i.stack.imgur.com/jGlzr.png") repeat-x 0 0 scroll;
+  background-repeat: repeat-x;
 }
 
 h1 {
