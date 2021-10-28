@@ -4,6 +4,7 @@ body {
   margin: 0 auto;
   background: url("https://i.stack.imgur.com/jGlzr.png") repeat-x 0 0 scroll;
   background-repeat: repeat-x;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -23,9 +24,33 @@ p {
   font-size: 20px;
 }
 
+p {
+    text-align: justify;
+    margin: 0 0 15px 0;
+}
+
 p#indice1 {
 	background-color:blue;
 }
 p.indice2 {
     background-color:red;
+}
+
+pre {
+  font-style: italic;
+}
+#lipsum {
+    text-align: justify;
+}
+
+div.movil {
+  background-image: url("https://previews.123rf.com/images/dyxum/dyxum1203/dyxum120300017/12704432-l%C3%ADmites-de-la-madera-horizontal-de-color-marr%C3%B3n-de-cerca-las-tablas.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+div.fijo {
+  background-image: url("https://previews.123rf.com/images/dyxum/dyxum1203/dyxum120300017/12704432-l%C3%ADmites-de-la-madera-horizontal-de-color-marr%C3%B3n-de-cerca-las-tablas.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
