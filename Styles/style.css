@@ -54,3 +54,12 @@ div.fijo {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+table.separado {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+.img-fruits{
+  width: 500px;
+}
